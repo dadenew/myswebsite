@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tagClouds>
+  <einstellungen>
+    <allgemein modus="globus" breite="220" hoehe="200" hintergrundfarbe="0xCFD0D1" rahmenfarbe="0xFFFFFF"/>
+    <wolke prozentsatz_vertikal=""/>
+    <globus radius="60" maximale_Drehgeschwindigkeit="1.5"/>
+    <fliegen geschwindigkeit_aktiv="" geschwindigkeit_passiv="" richtung=""/>
+    <schrift schriftart="Arial" kleinste_Schriftgr="9" groesste_Schriftgr="20" link_dekoration="underline"/>
+    <farbe wert="0x225B9C"/>
+    <farbe wert="0x2C1C52"/>
+    <farbe wert="0x643769"/>
+    <farbe wert="0x090D0D"/>
+  </einstellungen>
+  <tag linkURL="www.grails.org" prioritaet="1" text="Grails" target="_self"/>
+  <tag linkURL="daniel-ethiopia.rhcloud.com" prioritaet="3" text="Software Development" target="_self"/>
+  <tag linkURL="daniel-ethiopia.rhcloud.com" prioritaet="3" text="Software Engineering" target="_self"/>
+  <tag linkURL="www.java.com" prioritaet="2" text="Java" target="_self"/>
+  <tag linkURL="www.oracle.com" prioritaet="6" text="Oracle" target="_self"/>
+  <tag linkURL="www.linkedin.com" prioritaet="6" text="Daniel Adenew" target="_self"/>
+  <tag linkURL="www.redhat.com" prioritaet="8" text="Red Hat" target="_self"/>
+  <tag linkURL="www.linux.com" prioritaet="7" text="Linux" target="_self"/>
+  <tag linkURL="www.google.com" prioritaet="6" text="Ethiopia" target="_self"/>
+  <tag linkURL="www.opensource.com" prioritaet="4" text="Open Source" target="_self"/>
+  <tag linkURL="www.ubunut.org" prioritaet="5" text="Ubuntu" target="_self"/>
+  <tag linkURL="www.PHP.com" prioritaet="3" text="PHP" target="_self"/>
+  <tag linkURL="www.groovy.org" prioritaet="9" text="Groovy" target="_self"/>
+  <tag linkURL="www.Stackoverflow.com" prioritaet="1" text="StackOverflow" target="_self"/>
+  <tag linkURL="www.Stackoverflow.com" prioritaet="7" text="Programming" target="_self"/>
+  <tag linkURL="www.google.com" prioritaet="9" text="C++" target="_self"/>
+  <tag linkURL="www.google.com" prioritaet="7" text="C# " target="_self"/>
+  <tag linkURL="www.microsoft.com" prioritaet="8" text=".NET" target="_self"/>
+  <tag linkURL="www.google.com" prioritaet="3" text="Vb6" target="_self"/>
+  <tag linkURL="www.google.com" prioritaet="6" text="Virus" target="_self"/>
+  <tag linkURL="www.vmware.com" prioritaet="2" text="Spring MVC" target="_self"/>
+  <tag linkURL="www.apache.com" prioritaet="1" text="Struts" target="_self"/>
+  <tag linkURL="www.mysql.com" prioritaet="6" text="Mysql" target="_self"/>
+  <tag linkURL="www.posgresql.com" prioritaet="2" text="Posgre SQL" target="_self"/>
+  <tag linkURL="www.mongodb.com" prioritaet="2" text="Mongo DB" target="_self"/>
+  <tag linkURL="www.google.com" prioritaet="1" text="NoSQL" target="_self"/>
+  <tag linkURL="www.google.com" prioritaet="5" text="Redit" target="_self"/>
+  <tag linkURL="www.google.com" prioritaet="8" text="Distributed" target="_self"/>
+  <tag linkURL="www.google.com" prioritaet="8" text="Clustering" target="_self"/>
+  <tag linkURL="www.apposit.com" prioritaet="5" text="Apposit" target="_self"/>
+  <tag linkURL="www.edge-develop.com" prioritaet="1" text="Edge-Develoop" target="_self"/>
+  <tag linkURL="www.mcit.gov.et.com" prioritaet="8" text="MCIT" target="_self"/>
+  <tag linkURL="www.aau.edu.et" prioritaet="8" text="AAU" target="_self"/>
+  <tag linkURL="www.aau.edu.et" prioritaet="3" text="Computer Science" target="_self"/>
+  <tag linkURL="www.aau.edu.et" prioritaet="10" text="IT" target="_self"/>
+</tagClouds>

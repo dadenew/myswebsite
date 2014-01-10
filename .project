@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>mywebiste</name>
+	<name>mywebsite</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -26,7 +26,7 @@
 		<link>
 			<name>.link_to_grails_plugins</name>
 			<type>2</type>
-			<location>C:/Users/Administrator/Documents/workspace-sts-3.4.0.RELEASE/mywebiste/target/work/plugins</location>
+			<location>C:/Users/Administrator/Documents/workspace-sts-3.4.0.RELEASE/mywebsite/target/work/plugins</location>
 		</link>
 	</linkedResources>
 </projectDescription>

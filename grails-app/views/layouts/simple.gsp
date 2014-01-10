@@ -5,9 +5,12 @@
 <!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"><!--<![endif]-->
 	<head>
+	    <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<title><g:layoutTitle default="Grails"/></title>
+		<meta name="description" content="This is Daniel Adenew Website.
+		Daniel Adenew is a software engineer ,programmer and web developer specializing in JAVA,C#,ASP.NET MVC,.NET,PHP,VB6,Python and NLP, Grails and Groovy Technology. "> <meta http-equiv="content-type" content="text/html;charset=UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		         
               <link rel="stylesheet" media="all" href="${resource(dir: 'css', file: 'style.css')}" type="text/css">
@@ -15,8 +18,8 @@
         	  	<link rel="stylesheet"  media="screen and (max-width: 600px)" href="${resource(dir: 'css', file: 'lessthen600.css')}" type="text/css">
 		  		<link rel="stylesheet"  media="screen and (max-width: 480px)" href="${resource(dir: 'css', file: 'lessthen480.css')}" type="text/css">
         <!-- [favicon] begin -->
-		<link rel="shortcut icon" href="${resource(dir: 'images', file: 'favicon.ico')}" type="image/x-icon">
-		<link rel=ico href="${resource(dir: 'images', file: 'favicon.ico')}">
+		<link rel="shortcut icon" href="${resource(dir: 'images', file: 'favicon1.ico')}" type="image/x-icon">
+		<link rel=ico href="${resource(dir: 'images', file: 'favicon1.ico')}">
         <!-- [favicon] end -->  
 		 <!-- CUSTOM STYLE -->                                                                        
         
@@ -50,9 +53,102 @@
 		<r:layoutResources />
 	</head>
 	<body  class="home image-sphere-style responsive"> <!-- START SHADOW WRAPPER -->
+	
+	
+	<?xml version="1.0" encoding="utf-8"?>
         <div class="shadowBg group">
             <!-- START WRAPPER -->
             <div class="wrapper group">
+               <!-- START TOPBAR -->
+                <div id="topbar">
+                    <div class="inner">
+                        <ul class="topbar_links">
+                            <li>
+                                <a href="#">Login</a>  
+                            </li>
+                            <li> | <a href="contact.html">Contact Us</a></li>
+                        </ul>
+                        <div class="clear"></div>
+                    </div>
+                    <!-- end.inner -->
+                </div>
+                <!-- END TOPBAR -->   
+                 
+                <!-- START HEADER -->
+                <div id="header" class="group">
+                
+                    <!-- START LOGO -->
+                    <div id="logo" class="group">
+                        <a href="index.html" title="Daniel Adenew's Webiste"> 
+                  
+                        <img src="${resource(dir: 'images', file: 'logo.png')}" alt="DanCreativeLabs " />
+                        </a>              
+                    </div>
+                    <!-- END LOGO -->   
+                    
+                    <!-- START NAV -->
+                    <div id="nav" class="group">
+                        <ul class="level-1 white">
+                            <li class="home">
+                                <a href="/mywebsite/">HOME</a>
+                                <!-- <ul class="sub-menu">
+                                  
+                                    <li><a href="home-version-2.html">HOME VERSION 2</a></li>
+                                    <li><a href="home-version-3.html">HOME VERSION 3</a></li>
+                                    <li><a href="home-version-4.html">HOME VERSION 4</a></li>
+                                    <li><a href="home-version-5.html">HOME VERSION 5</a></li>
+                                    <li><a href="home-version-6.html">HOME VERSION 6</a></li>
+                                   
+                                </ul>
+                                -->
+                            </li>
+                            <li class="folder">
+                                <a href="#">About Me</a>
+                                <!--  <ul class="sub-menu">
+                                    <li><a href="faq.html">Faq</a></li>
+                                    <li><a href="testimonials.html">Testimonials</a></li>
+                                    <li><a href="staff.html">Staff</a></li>
+                                    <li><a href="gallery.html">Gallery</a></li>
+                                    <li><a href="archives.html">Archives</a></li>
+                                </ul>
+                                -->
+                            </li>
+                            <li class="bookmark">
+                                <a href="#">Portfolio (My previous Work)</a> <!--
+                                <ul class="sub-menu">
+                                    <li><a href="portfolio-3-columns.html">3 Columns</a></li>
+                                    <li><a href="portfolio-with-slider.html">With Slider</a></li>
+                                    <li><a href="portfolio-big-image.html">Big Image</a></li>
+                                    <li><a href="portfolio-full-description.html">Full Description</a></li>
+                                    <li><a href="portfolio-filterable.html">Filterable</a></li>
+                                </ul>-->
+                            </li>
+                            <li class="burst">
+                                <a href="#">Projects</a> <!--
+                                <ul class="sub-menu">
+                                    <li><a href="shortcode-nivo-slider.html">Nivo Slider</a></li>
+                                    <li><a href="shortcode-media-widgets.html">Media &#038; Widgets</a></li>
+                                    <li><a href="shortcode-alert-box-buttons.html">Alert box &#038; buttons</a></li>
+                                    <li><a href="shortcode-icon-sections.html">Icon Sections</a></li>
+                                    <li><a href="shortcode-table-box-prices.html">Table &#038; Box prices</a></li>
+                                    <li><a href="shortcode-typography.html">Typography</a></li>
+                                    <li><a href="shortcode-mix-various.html">Mix &#038; Various</a></li>
+                                </ul>-->
+                            </li>
+                            <li class="calendar">
+                                <a href="blog.html">Blog</a>
+                               <!--  <ul class="sub-menu"> 
+                                    <li><a href="blog-small-image.html">Small Image</a></li>
+                                    <li><a href="blog-big-image.html">Big image</a></li>
+                                </ul> -->
+                            </li>
+                            <li class="email"><g:link controller="contact">Contact</a></g:link></li>
+                        </ul>
+                    </div>
+                    <!-- END NAV -->   
+                </div>
+                <!-- END HEADER -->        
+        
             <g:layoutBody/>
 		<r:layoutResources />
 		<!-- START TWITTER -->
@@ -70,7 +166,7 @@
                         <div class="widget-first widget widget_text">
                             <h3>My Compnay</h3>
                             <p>
-                                <strong> Dan Creative Labs </strong> is a new software company providing freelance and aprtime service mainly in software Engineering , Web Desing and Development , Consulting , Security Penteration Testing ,and other consukltancy services.</p>
+                                <strong> Dan Creative Labs </strong> is a new software company providing freelance , partime software development , web developemnt , hosting , security assesement and testing and consultancy service.founded by Daniel Adenew , 2014.</p>
                         </div>            
                         <!-- END WIDGET -->
                                     
@@ -112,15 +208,58 @@
                                     
                         <!-- START WIDGET -->
                         <div class="widget-last widget widget_nav_menu">
-                            <h3>MENU</h3>
-                            <ul class="menu">
+                            <h3>Tag Cloud</h3>
+                           <!--  <ul class="menu">
                                 <li><a href="about.html">About Di&#8217;verso</a></li>
                                 <li><a href="contact.html">Contact Di&#8217;verso</a></li>
                                 <li><a href="shortcodes.html">Shortcodes</a></li>
                                 <li><a href="blog.html">Blog</a></li>
                                 <li><a href="http://www.yourinspirationweb.com/en">Your Inspiration Web</a></li>
-                            </ul>
-                        </div>    
+                            </ul> -->
+                                 <script language="javascript">AC_FL_RunContent = 0;</script>
+
+<script src="${resource(dir: 'js', file: 'AC_RunActiveContent.js')}" language="javascript"></script>
+<?xml version="1.0" encoding="utf-8"?>
+                                  <script language="javascript">
+	if (AC_FL_RunContent == 0) {
+		alert("This page requires AC_RunActiveContent.js.");
+	} else {
+		AC_FL_RunContent(
+			'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0',
+			'width', '220',
+			'height', '200',
+			'src', 'tagClouds',
+			'quality', 'high',
+			'pluginspage', 'http://www.macromedia.com/go/getflashplayer',
+			'align', 'middle',
+			'play', 'true',
+			'loop', 'true',
+			'scale', 'showall',
+			'wmode', 'transparent',
+			'devicefont', 'false',
+			'id', 'tagClouds',
+			'bgcolor', '#ffffff',
+			'name', 'tagClouds',
+			'menu', 'true',
+			'allowFullScreen', 'false',
+			'allowScriptAccess','sameDomain',
+			'movie', 'tagClouds',
+			'salign', '',
+			'flashVars', 'xmlURL='+"${resource(file: 'tagClouds763641a7e0b8eb21ad08e0db31d8cf621389268140.xml')}"
+			); //end AC code
+	}
+</script>
+<noscript>
+	<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" width="220" height="200" id="tagClouds" align="middle" >
+	<param name="allowScriptAccess" value="sameDomain" />
+	<param name="allowFullScreen" value="false" />
+	<param name="movie" value="tagClouds.swf" />
+	<param name="quality" value="high" />
+	<param name="bgcolor" value="#ffffff" />
+	<param name="flashVars" value="xmlURL=tagClouds763641a7e0b8eb21ad08e0db31d8cf621389268140.xml" />
+	<embed src="tagClouds.swf" quality="high" bgcolor="#ffffff" width="100%" height="100%" name="tagClouds" align="middle" allowScriptAccess="sameDomain" allowFullScreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" flashVars="xmlURL=tagClouds763641a7e0b8eb21ad08e0db31d8cf621389268140.xml"/>
+	</object>
+</noscript>                        </div>    
                         <!-- END WIDGET -->
                                   
                     </div>
@@ -130,7 +269,7 @@
                 <!-- START COPYRIGHT -->
                 <div id="copyright" class="group two-columns">
                     <div class="inner group">
-                        <p class="left">Copyright <a href="#"><strong>Daniel Adenew.</strong></a> 2014 - Powered by<a href="www.grails.org"><strong>Grails </strong></a></p>
+                        <p class="left">Copyright &copy; <a href="http://daniel-ethiopia.rhcloud.com"><strong>Daniel Adenew. <font size="+2">&reg;</font></strong></a>  2014 -  Powered by <a href="www.grails.org"><img src="images/favicon2.ico"/><strong>Grails<font size="+2">&trade;</font></strong></a></p>
                         <p class="right">
                             <a href="#" class="socials facebook" title="Facebook">facebook</a>
                             <a href="#" class="socials rss" title="Rss">rss</a>
@@ -150,6 +289,17 @@
             <!-- END WRAPPER --> 
             	    
         </div>
-        <!-- END SHADOW -->       
+        <!-- END SHADOW -->     
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-46987996-1', 'daniel-ethiopia.rhcloud.com');
+  ga('send', 'pageview');
+
+</script>
+          
 	</body>
 </html>

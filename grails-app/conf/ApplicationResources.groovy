@@ -21,9 +21,12 @@ modules = {
 		resource url:'js/jquery.aw-showcase.js'
 		resource url:'js/swfobject.js'
 		resource url:'js/jquery.custom.js'
+		resource url:'js/AC_RunActiveContent.js'
 		
+	}
+	homeslider{
 		
-		
-		
+		//page specifc
+		resource url:'js/homepagescript.js'
 	}
 }
