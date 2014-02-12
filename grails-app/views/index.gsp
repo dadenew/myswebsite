@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta name="layout" content="simple"/>
-		<title>Welcome to Daniel Adenew Website | Home </title>
+		<title>Welcome to My Website - Daniel  Adenew|Home</title>
     
    	</head>
 <body>
